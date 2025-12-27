@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  genus-dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: genus-dashboard
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    networks:
+      - genus-network
+
+networks:
+  genus-network:
+    driver: bridge
+
