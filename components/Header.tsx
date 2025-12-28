@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className="bg-white border-b border-gray-200">
       {/* Browser-like top bar */}
-      {/* <div className="bg-gray-100 px-4 py-1 flex items-center justify-between text-xs text-gray-600">
+      <div className="bg-gray-100 px-4 py-1 flex items-center justify-between text-xs text-gray-600">
         <div className="flex items-center gap-2">
           <div className="flex gap-1">
             <div className="w-3 h-3 rounded-full bg-red-500"></div>
@@ -20,7 +20,7 @@ export default function Header() {
           <button className="px-2 py-1 hover:bg-gray-200 rounded">→</button>
           <button className="px-2 py-1 hover:bg-gray-200 rounded">↻</button>
         </div>
-      </div> */}
+      </div>
 
       {/* Main header */}
       <div className="px-6 py-4 flex items-center justify-between">
